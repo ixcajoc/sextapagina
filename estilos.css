@@ -1,0 +1,29 @@
+body{margin: 0;}
+p{margin: 0;}
+h1{text-align: center;}
+/*header{
+	height: 70vh;
+	background-image: url(paisaje.webp);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	font-size: 60px;
+	color: white;
+}*/
+.tarjeta{
+	text-align: center;
+	font-size: 30px;
+	border: solid 1px blue;
+	height: 200px;
+	width: 20%;
+	border-radius: 15px;
+			/*  derecha abajo difuminacion color	*/
+	box-shadow: 0 3px 10px red;
+	
+}
+.primera-linea{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;/*espacio igual de separacion*/	
+	margin-top: 10px;
+}
